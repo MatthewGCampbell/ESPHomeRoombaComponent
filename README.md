@@ -30,5 +30,5 @@ The D1 mini is small enough to fit into the compartment by the wheel. The [examp
 
 Take a look at the example directory for a fully working example. My code has some fixes from original
 
-* <example/esphome.yaml> - Contains the bits needed for ESPHome.
-* <example/homeassistant-vacuum.yaml> - Contains the bits needed to integrate as a "MQTT Vacuum" in Home Assistant
+* [<example/esphome.yaml>](/example/homeassistant-vacuum.yaml)  - code for configuration.yaml to integrate as a "MQTT Vacuum" in Home Assistant
+* [<example/roomba.yaml>](/example/roomba.yaml)  - code for ESPhome
