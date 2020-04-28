@@ -1,6 +1,6 @@
 # Roomba Component for ESPHome
 
-#THIS IS JUST FORK FROM GREAT COMPONNENT https://github.com/mannkind/ESPHomeRoombaComponent AND ALL CREDITS GOES TO THE AUTHOR. I JUST UPDATED THE INSTRUCTIONS AND EXAMPLES SINCE SOME THINGS IN ORIGINAL DOCUMENTATION HAVE ERRORS AND SOME NEEDS TO BE UPDATED.
+#THIS IS JUST FORK FROM GREAT COMPONNENT https://github.com/mannkind/ESPHomeRoombaComponent AND ALL CREDITS GOES TO THE AUTHOR. I JUST UPDATED THE INSTRUCTIONS AND EXAMPLES SINCE SOME THINGS IN ORIGINAL DOCUMENTATION HAVE ERRORS AND SOME NEEDED TO BE UPDATED.
 
 A barebones wrapper to enable control of a Roomba via MQTT with ESPHome.
 Tested with ESPHome 1.14.x, and a Roomba 650 w/a Wemos D1 Mini installed.
@@ -9,7 +9,7 @@ Tested with ESPHome 1.14.x, and a Roomba 650 w/a Wemos D1 Mini installed.
 
 The inspiration for this project is https://github.com/johnboiles/esp-roomba-mqtt. 
 
-Since most of the users nowdays use cheap Wemos D1 mini developpment board, also wiring needs to be updated:
+Since most of the users nowdays use cheap Wemos D1 mini developpment board, also wiring needs to be updated.
 
 Most arduino boards have issues reading sensor data from the roomba, since the drive strength of a Roomba TX line is not enough to drive the RX line of another board (for example, in some revisions of Arduino). In this case, a simple PNP transistor (2N2907A, 2N3906, or 2N4403, among others) can be used to provide enough “drive” for the Arduino.
 
