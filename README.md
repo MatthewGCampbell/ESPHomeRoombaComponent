@@ -1,4 +1,4 @@
-# Roomba Component for ESPHome (for old Rommba without wifi)
+# Roomba Component for ESPHome (for old models without wifi)
 
 *THIS IS JUST FORK FROM GREAT COMPONNENT https://github.com/mannkind/ESPHomeRoombaComponent AND ALL CREDITS GOES TO THE AUTHOR. I JUST UPDATED THE INSTRUCTIONS AND EXAMPLES SINCE SOME THINGS IN ORIGINAL DOCUMENTATION HAVE ERRORS AND SOME NEEDED TO BE UPDATED.*
 
