@@ -16,19 +16,9 @@ Most arduino boards have issues reading sensor data from the roomba, since the d
 Since Wemos D1 mini uses 5v (or 3.3v), but roomba gives out up to 20v (when charging), you need to use simple DC-DC converter to have stabilized 5v power. I am using cheap 8-12V to usb converters from aliexpress.
 
 The wiring mentioned in the tread above uses many wires and resistors, but everything could be much simplified. My wiring diagram:
-ROOMBA PIN -| -DC DC PIN- |-TRANSISTOR PIN- |-WEMOS PIN
-  1 (Vpwr)  |             |                 |       /
-  2         |    V+       |                 |
-  3 (RXD)   |             |                 |        TX 
-  4 (TXD)   |             |         left    |
-  5 (BRC)   |             |                 |        D4
-  6 (GND)   |    gnd      |                 |
-  7 (GND)   |             |         middle  |
-            |    5v out   |                 |        5v
-            |    gnd out  |                 |        gnd
-            |             |         right   |        RX
+https://imgur.com/7vy5mpj
                 
-I will upload my shcema, but for refference you may use also this one https://i.stack.imgur.com/aaifY.jpg
+I will upload my schema, but for refference you may use also this one https://i.stack.imgur.com/aaifY.jpg
 
 The D1 mini is small enough to fit into the compartment by the wheel. The [example image of D1 mini inside Roomba compartment](https://community-home-assistant-assets.s3.dualstack.us-west-2.amazonaws.com/optimized/2X/a/a258c7253f8bd3fe76ad9e7aa1202b60bd113d74_2_496x600.jpg) image is not a photo of mine specifically, but it's useful to see where the components fit inside the Roomba. It was sourced from a [community project thread on the Home Assistant forums](https://community.home-assistant.io/t/add-wifi-to-an-older-roomba/23282).
 
