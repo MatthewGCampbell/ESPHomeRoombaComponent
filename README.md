@@ -22,7 +22,7 @@ The wiring mentioned in the tread above uses many wires and resistors, but every
 ![Wiring](/docs/wiring.jpg)
 
 I will also draw my schema, but for refference you may use also this one **just select correct pins on arduino!**
-![Adruino uno example](ttps://i.stack.imgur.com/aaifY.jpg)
+![Adruino uno example](https://i.stack.imgur.com/aaifY.jpg)
 
 The D1 mini is small enough to fit into the compartment by the wheel. The [example image of D1 mini inside Roomba compartment](https://community-home-assistant-assets.s3.dualstack.us-west-2.amazonaws.com/optimized/2X/a/a258c7253f8bd3fe76ad9e7aa1202b60bd113d74_2_496x600.jpg) image is not a photo of mine specifically, but it's useful to see where the components fit inside the Roomba. It was sourced from a [community project thread on the Home Assistant forums](https://community.home-assistant.io/t/add-wifi-to-an-older-roomba/23282).
 
