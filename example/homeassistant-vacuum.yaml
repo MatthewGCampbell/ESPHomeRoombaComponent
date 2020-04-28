@@ -1,6 +1,6 @@
----
+vacuum:
 - platform: mqtt
-  name: "roomba"
+  name: "Roomba"
   schema: state
   supported_features:
     - start
