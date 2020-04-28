@@ -1,6 +1,6 @@
 ---
 - platform: mqtt
-  name: "Roomba"
+  name: "roomba"
   schema: state
   supported_features:
     - start
@@ -8,6 +8,6 @@
     - return_home
     - battery
     - clean_spot
-  availability_topic: "roomba_001/status"
-  state_topic: "roomba_001/state"
-  command_topic: "roomba_001/command"
+  availability_topic: "roomba/status"
+  state_topic: "roomba/state"
+  command_topic: "roomba/command"
