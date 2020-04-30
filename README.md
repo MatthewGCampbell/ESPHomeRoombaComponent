@@ -21,6 +21,8 @@ Since Wemos D1 mini uses 5v (or 3.3v), but roomba gives out up to 20v (when char
 The wiring mentioned in the tread above uses many wires and resistors, but everything could be much simplified. My wiring diagram:
 ![Wiring](/docs/wiring.jpg)
 
+![Roomba pinout](https://community-home-assistant-assets.s3-us-west-2.amazonaws.com/original/2X/c/c1a32634d0727a8b8e8d1db0a5ec1219799d5ccc.png)
+
 I will also draw my schema, but for refference you may use also this one **just select correct pins on arduino!**
 ![Adruino uno example](https://i.stack.imgur.com/aaifY.jpg)
 
