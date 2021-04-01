@@ -3,7 +3,7 @@
 *THIS IS JUST FORK FROM GREAT COMPONNENT https://github.com/mannkind/ESPHomeRoombaComponent AND ALL CREDITS GOES TO THE AUTHOR. I JUST UPDATED THE INSTRUCTIONS AND EXAMPLES SINCE SOME THINGS IN ORIGINAL DOCUMENTATION HAVE ERRORS AND SOME NEEDED TO BE UPDATED.*
 
 A barebones wrapper to enable control of a Roomba via MQTT with ESPHome.
-Tested with ESPHome 1.14.x, and a Roomba 650 with Wemos D1 Mini installed.
+Tested with ESPHome 1.16.2, and a Roomba 650 with adafruit hazzah installed.
 
 ![Sensors data](/docs/Annotation%202020-04-27%20102809.jpg)
 ![Commands](/docs/Annotation%202020-04-27%20102837.jpg)
