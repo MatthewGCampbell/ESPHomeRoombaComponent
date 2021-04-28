@@ -29,12 +29,13 @@ I will also draw my schema, but for refference you may use also this one **just 
 # If you are using a D1 mini
 The D1 mini is small enough to fit into the compartment by the wheel. The [example image of D1 mini inside Roomba compartment](https://community-home-assistant-assets.s3.dualstack.us-west-2.amazonaws.com/optimized/2X/a/a258c7253f8bd3fe76ad9e7aa1202b60bd113d74_2_496x600.jpg) image is not a photo of mine specifically, but it's useful to see where the components fit inside the Roomba. It was sourced from a [community project thread on the Home Assistant forums](https://community.home-assistant.io/t/add-wifi-to-an-older-roomba/23282).
 
-#Board Setup
-The origional creator used a D1 mini but i opted for a ESP-01 (https://www.amazon.com/MakerFocus-Wireless-Transceiver-DC3-0-3-6V-Compatible/dp/B01EA3UJJ4/ref=asc_df_B01EA3UJJ4/?tag=hyprod-20&linkCode=df0&hvadid=309773039951&hvpos=&hvnetw=g&hvrand=4985446750337794805&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9010259&hvtargid=pla-599566692924&psc=1)as it was the smallest one i could find, I added female pins on my circuit oard so that i could easilly switch out chips and reflash if needed (Might add a onbaord debug port on my next revision)
+## Board Setup
+
+The origional creator used a D1 mini but i opted for a ESP-01 [Amazon](https://www.amazon.com/MakerFocus-Wireless-Transceiver-DC3-0-3-6V-Compatible/dp/B01EA3UJJ4/ref=asc_df_B01EA3UJJ4/?tag=hyprod-20&linkCode=df0&hvadid=309773039951&hvpos=&hvnetw=g&hvrand=4985446750337794805&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9010259&hvtargid=pla-599566692924&psc=1)as it was the smallest one i could find, I added female pins on my circuit oard so that i could easilly switch out chips and reflash if needed (Might add a onbaord debug port on my next revision)
 
 ![Example Circuit Board I made (Cut the side to see if it would fit but it didn't )](/docs/Beta 1.jpeg)
-
-![How I placed it inside the roomba](/docs/fit the wires through the case.jpeg)
+![My Board](/docs/Beta_1.jpeg)
+![How I placed it inside the roomba](/docs/wires.jpeg)
 ![How I placed it inside the roomba](/docs/inside_roomba.jpeg)
 
 ## Software Setup/Use
